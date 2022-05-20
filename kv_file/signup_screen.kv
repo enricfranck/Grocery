@@ -1,0 +1,68 @@
+#: import MyMDTextField component.my_text_field.MyMDTextField
+<SignupScreen>:
+    name:  'Signup'
+    MDFloatLayout
+        md_bg_color: 1, 1, 1, 1
+        FitImage:
+            source: "images/Rectangle 17.png"
+            pos_hint: {"cente_x": 0.5, "center_y": 1}
+            size_hint: 1, 0.5
+        FitImage:
+            source: "images/coloredCarrot.png"
+            pos_hint: {"center_x": .5, "center_y": .88}
+            size_hint: 0.135, 0.082
+        MDLabel:
+            text: "[b]Sign Up[/b]"
+            pos_hint: {"center_x": 0.55, "center_y": 0.72}
+            font_size: "18sp"
+            halign: "left"
+            markup: True
+            theme_text_color: "Custom"
+        MDLabel:
+            text: "Enter your emails credentials to continue"
+            pos_hint: {"center_x": 0.55, "center_y": 0.67}
+            font_size: "12sp"
+            halign: "left"
+            markup: True
+            theme_text_color: "Custom"
+        MDTextField:
+            hint_text: "Username"
+            pos_hint: {"center_x": 0.5, "center_y": 0.58}
+            size_hint: 0.9, None
+        MDTextField:
+            hint_text: "Email"
+            pos_hint: {"center_x": 0.5, "center_y": 0.48}
+            size_hint: 0.9, None
+        MyMDTextField:
+            hint_text: "Password"
+            pos_hint: {"center_x": 0.5, "center_y": 0.38}
+            size_hint: 0.9, None
+            password: True
+            helper_text_mode:"on_error"
+            icon_right:"eye-off"
+        MDLabel:
+            text: "By continuing you agree to our [color=10B34E][ref=label]Terms of service[/ref][/color] and [color=10B34E][ref=label]privacy policy[ref=label][/color]"
+            pos_hint: {"center_x": 0.5, "center_y": 0.30}
+            font_size: "12sp"
+            halign: "left"
+            markup: True
+            padding_x: 20
+            theme_text_color: "Custom"
+            on_ref_press: root.manager.current= 'Signin'
+        MDFillRoundFlatButton:
+            text: "Sign Up"
+            theme_text_color: "Custom"
+            text_color: 1, 1, 1, 1
+            md_bg_color: utils.get_color_from_hex('#10B34E')
+            pos_hint: {"center_x": 0.5, "center_y": 0.20}
+            size_hint: 0.88, 0.08
+            #on_press: root.manager.current= 'Signin'
+        MDLabel:
+            text: "Already have an account? [color=10B34E][ref=label]Sign in[ref=label][/color]"
+            pos_hint: {"center_x": 0.5, "center_y": 0.12}
+            font_size: "12sp"
+            halign: "center"
+            markup: True
+            theme_text_color: "Custom"
+            border: 1
+            on_ref_press: root.manager.current= 'Login'

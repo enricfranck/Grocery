@@ -1,4 +1,4 @@
-<SplashScreen>:
+<SigninScreen>:
     name:  'Signin'
     MDFloatLayout
         md_bg_color: 1, 1, 1, 1
@@ -20,8 +20,39 @@
             halign: "left"
             markup: True
             theme_text_color: "Custom"
+        MDIconButton:
+            icon: "email"
+            pos_hint: {"center_x": .1, "center_y": .45}
         MDTextField:
-            pos_hint: {"center_x": 0.55, "center_y": 0.40}
-            id: text_field
-            text: "+880"
-            icon_left: "key-variant"
+            id: text_field_num
+            pos_hint: {"center_x": 0.55, "center_y": 0.45}
+            text: "+261"
+            size_hint: 0.8, None
+            readonly: True
+            on_focus:
+                root.manager.current= 'Numeric'
+        MDLabel:
+            text: "Or connect with soscial media"
+            halign: "center"
+            pos_hint: {"center_x": 0.5, "center_y": 0.37}
+            font_size: "12sp"
+            halign: "center"
+            theme_text_color: "Custom"
+            size_hint: 1, None
+        MDFillRoundFlatIconButton:
+            icon: "google"
+            text: "Continue with google"
+            theme_text_color: "Custom"
+            md_bg_color: 0, 0, 0, 0
+            pos_hint: {"center_x": 0.5, "center_y": 0.26}
+            md_bg_color: utils.get_color_from_hex('#5383EC')
+            size_hint:0.8, .088
+        MDFillRoundFlatIconButton:
+            icon: "facebook"
+            theme_text_color: "Custom"
+            text: "Continue with facebook"
+            md_bg_color: utils.get_color_from_hex('#4A66AC')
+            pos_hint: {"center_x": 0.5, "center_y": 0.15}
+            size_hint: 0.8, .088
+
+

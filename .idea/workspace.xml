@@ -2,15 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0faab2-a299-4824-a403-b309a3bb794a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/carrotWhiteAndBlack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/connectingBackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/welcomeBackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kv_file/signin_screen.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kv_file/splash_screen.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/signin_screen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screens/splash_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component/my_text_field.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Mask Group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Rectangle 17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/coloredCarrot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/locationImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kv_file/location_screen.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kv_file/login_screen.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kv_file/numeric_screen.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kv_file/signup_screen.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kv_file/verification_screen.kv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/location_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/login_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/numeric_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/signup_screen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/verification_screen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kv_file/signin_screen.kv" beforeDir="false" afterPath="$PROJECT_DIR$/kv_file/signin_screen.kv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kv_file/splash_screen.kv" beforeDir="false" afterPath="$PROJECT_DIR$/kv_file/splash_screen.kv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/splash_screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/screens/splash_screen.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +58,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/kv_file" />
       <recent name="$PROJECT_DIR$/screens" />
     </key>
   </component>

@@ -4,9 +4,6 @@ from kivymd.uix.screen import MDScreen
 
 
 class SplashScreen(MDScreen):
-    def to_signin(self):
-        print("test")
-        MDApp.get_running_app().root.current = "Signin"
 
     def current_slide(self, index):
         for i in range(2):
