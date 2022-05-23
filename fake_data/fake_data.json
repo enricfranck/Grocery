@@ -1,0 +1,122 @@
+{
+  "exclusive_offer": [
+    {
+      "name": "Organic Bananas",
+      "image": "data_image/organic_banana.png",
+      "price": "$4.99",
+      "property": "7piece, Price"
+    },
+    {
+      "name": "Red Apple",
+      "image": "data_image/redApple.png",
+      "price": "$4.99",
+      "property": "1kg, Price"
+    },{
+      "name": "Bananas",
+      "image": "data_image/organic_banana.png",
+      "price": "$4.99",
+      "property": ""
+    }
+  ],
+  "best_selling": [
+    {
+      "name": "Bell Peper Red",
+      "image": "data_image/bellPepperRed.png",
+      "price": "$4.99",
+      "property": "1kg, Price"
+    },
+    {
+      "name": "Ginger",
+      "image": "data_image/ginger.png",
+      "price": "$4.99",
+      "property": "250gm, Price"
+    },
+    {
+      "name": "Bell Peper Red",
+      "image": "data_image/bellPepperRed.png",
+      "price": "$4.99",
+      "property": "1kg, Price"
+    }
+  ],
+  "groceries_2": [
+    {
+      "name": "Beff Bone",
+      "image": "data_image/beefBone.png",
+      "price": "$4.99",
+      "property": "1kg, Price"
+    },
+    {
+      "name": "Broiler Chicken",
+      "image": "data_image/broilerChicken.png",
+      "price": "$4.99",
+      "property": "1kg, Price"
+    },{
+      "name": "Beff Bone",
+      "image": "data_image/beefBone.png",
+      "price": "$4.99",
+      "property": "1kg, Price"
+    },
+    {
+      "name": "Broiler Chicken",
+      "image": "data_image/broilerChicken.png",
+      "price": "$4.99",
+      "property": "1kg, Price"
+    },{
+      "name": "Beff Bone",
+      "image": "data_image/beefBone.png",
+      "price": "$4.99",
+      "property": "1kg, Price"
+    },
+    {
+      "name": "Broiler Chicken",
+      "image": "data_image/broilerChicken.png",
+      "price": "$4.99",
+      "property": "1kg, Price"
+    },{
+      "name": "Beff Bone",
+      "image": "data_image/beefBone.png",
+      "price": "$4.99",
+      "property": "1kg, Price"
+    }
+  ],
+  "groceries": [
+    {
+      "name": "Pulses",
+      "image": "data_image/pulses.png"
+    },
+    {
+      "name": "Rice",
+      "image": "data_image/rice.png"
+    },
+    {
+      "name": "Pulses",
+      "image": "data_image/pulses.png"
+    }
+  ],
+  "groceries_pack": [
+    {
+      "name": "Bakery & Snacks",
+      "image": "data_image/bakery_snacks.png"
+    },
+    {
+      "name": "Frash Fruits & Vegetable",
+      "image": "data_image/frash_fruit_vegetable.png"
+    },
+    {
+      "name": "Beverages",
+      "image": "data_image/beverages.png"
+    },
+    {
+      "name": "Dairy & Eggs",
+      "image": "data_image/dairy_eggs.png"
+    },
+    {
+      "name": "Cooking & Oil",
+      "image": "data_image/cooking_oil.png"
+    },
+    {
+      "name": "Meat & Fish",
+      "image": "data_image/meat_fish.png"
+    }
+  ]
+}

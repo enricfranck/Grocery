@@ -1,0 +1,136 @@
+<CardItemHome>:
+    radius: 15,15,15,15
+    orientation: "horizontal"
+    md_bg_color: utils.get_color_from_hex('#FFFFFF')
+    line_color: utils.get_color_from_hex('#808080')
+    size_hint: None, None
+    width: 130
+    height: 200
+    Image:
+        source: root.image
+        pos_hint: {"center_x": .5, "center_y": .7}
+        size_hint: 0.6, 0.6
+    MDLabel:
+        text: root.name
+        pos_hint: {"center_x": .5, "center_y": 0.48}
+        font_size: "12sp"
+        halign: "left"
+        padding_x: "10dp"
+        theme_text_color: "Custom"
+        text_color: utils.get_color_from_hex('#000000')
+
+    MDLabel:
+        text: root.property
+        pos_hint: {"center_x": .5, "center_y": 0.38}
+        font_size: "12sp"
+        halign: "left"
+        padding_x: "10dp"
+        theme_text_color: "Custom"
+        text_color: utils.get_color_from_hex('#808080')
+
+    MDLabel:
+        text: f"[b]{root.price}[/b]"
+        pos_hint: {"center_x": .5, "center_y": 0.16}
+        font_size: "15sp"
+        halign: "left"
+        padding_x: "10dp"
+        markup: True
+        theme_text_color: "Custom"
+        text_color: utils.get_color_from_hex('#000000')
+
+    MDIconButton:
+        icon: "plus"
+        theme_text_color: "Custom"
+        text_color: utils.get_color_from_hex('#FFFFFF')
+        pos_hint: {"center_x": .76, "center_y": .16}
+        md_bg_color: utils.get_color_from_hex('#10B34E')
+        on_press: root.detail_product(root.name, root.price, root.property)
+
+<CardItemGrocery>:
+    radius: 15,15,15,15
+    orientation: "horizontal"
+    md_bg_color: utils.get_color_from_hex(f'{root.font}')
+    line_color: utils.get_color_from_hex('#808080')
+    size_hint: None, None
+    width: 220
+    height: 70
+    Image:
+        source: root.image
+        pos_hint: {"center_x": .2, "center_y": .5}
+        size_hint: 0.8, 0.8
+    MDLabel:
+        text: root.name
+        pos_hint: {"center_x": .5, "center_y": 0.5}
+        font_size: "18sp"
+        halign: "center"
+        padding_x: "10dp"
+        theme_text_color: "Custom"
+        text_color: utils.get_color_from_hex('#000000')
+
+<CardItemGroceryExplore>:
+    radius: 15,15,15,15
+    orientation: "horizontal"
+    md_bg_color: utils.get_color_from_hex('#FFFFFF')
+    line_color: utils.get_color_from_hex('#808080')
+    size_hint: 0.5, None
+    height: 200
+    Image:
+        source: root.image
+        pos_hint: {"center_x": .5, "center_y": .7}
+        size_hint: 0.6, 0.6
+    MDLabel:
+        text: root.name
+        pos_hint: {"center_x": .5, "center_y": 0.48}
+        font_size: "12sp"
+        halign: "left"
+        padding_x: "10dp"
+        theme_text_color: "Custom"
+        text_color: utils.get_color_from_hex('#000000')
+
+    MDLabel:
+        text: root.property
+        pos_hint: {"center_x": .5, "center_y": 0.38}
+        font_size: "12sp"
+        halign: "left"
+        padding_x: "10dp"
+        theme_text_color: "Custom"
+        text_color: utils.get_color_from_hex('#808080')
+
+    MDLabel:
+        text: f"[b]{root.price}[/b]"
+        pos_hint: {"center_x": .5, "center_y": 0.16}
+        font_size: "15sp"
+        halign: "left"
+        padding_x: "10dp"
+        markup: True
+        theme_text_color: "Custom"
+        text_color: utils.get_color_from_hex('#000000')
+
+    MDIconButton:
+        icon: "plus"
+        theme_text_color: "Custom"
+        text_color: utils.get_color_from_hex('#FFFFFF')
+        pos_hint: {"center_x": .76, "center_y": .16}
+        md_bg_color: utils.get_color_from_hex('#10B34E')
+        on_press: root.detail_product(root.name, root.price, root.property)
+
+<CardItemGroceryExplorePack>:
+    radius: 15,15,15,15
+    orientation: "horizontal"
+    md_bg_color: utils.get_color_from_hex(f'{root.font}')
+    line_color: utils.get_color_from_hex('#808080')
+    size_hint: 0.5, None
+    height: 150
+    Image:
+        source: root.image
+        pos_hint: {"center_x": .5, "center_y": .65}
+        size_hint: 0.6, 0.6
+    MDLabel:
+        text: f"[b]{root.name}[/b]"
+        pos_hint: {"center_x": .5, "center_y": 0.3}
+        font_size: "13sp"
+        halign: "center"
+        padding_x: "10dp"
+        markup: True
+        theme_text_color: "Custom"
+        text_color: utils.get_color_from_hex('#000000')

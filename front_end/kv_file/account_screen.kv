@@ -1,0 +1,24 @@
+#:import utils kivy.utils
+
+<AccountScreen>:
+    name:  'Search'
+    MDFloatLayout:
+        md_bg_color: utils.get_color_from_hex('#10B34E')
+        Image:
+            source: "images/carrotWhiteAndBlack.png"
+            pos_hint: {"center_x": .25, "center_y": .5}
+            size_hint: 0.15, 0.09
+        MDLabel:
+            text: "nectar"
+            pos_hint: {"center_x": 0.85, "center_y": 0.51}
+            font_size: "46sp"
+            halign: "left"
+            theme_text_color: "Custom"
+            text_color: 1, 1, 1, 1
+        MDLabel:
+            text: "online groceriet"
+            pos_hint: {"center_x": 0.85, "center_y": 0.46}
+            font_size: "18sp"
+            halign: "left"
+            theme_text_color: "Custom"
+            text_color: 1, 1, 1, 1

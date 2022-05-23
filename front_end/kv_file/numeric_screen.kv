@@ -11,7 +11,8 @@
             icon:"less-than"
             icon_size: "36dp"
             pos_hint: {"center_x": 0.08, "center_y": 0.93}
-            on_press: root.manager.current= 'Signin'
+            on_press:
+                root.go_next('Signin')
 
         MDLabel:
             text: "[b]Enter your mobile number[/b]"
