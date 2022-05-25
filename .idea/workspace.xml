@@ -2,54 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0faab2-a299-4824-a403-b309a3bb794a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back_end/get_product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back_end/list_color.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_image/bakery_snacks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_image/beefBone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_image/bellPepperRed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_image/beverages.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_image/broilerChicken.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_image/cooking_oil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_image/dairy_eggs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_image/frash_fruit_vegetable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_image/ginger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_image/meat_fish.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_image/organic_banana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_image/pulses.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_image/redApple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_image/rice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fake_data/fake_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/component/card_item_home.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/home/my_cart_screen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/kv_file/account_screen.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/kv_file/card_item_home.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/kv_file/explore_screen.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/kv_file/favorites_screen.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/kv_file/main_screen.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/kv_file/my_cart_screen.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/kv_file/product_detail_screen.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/screens/main_screen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/screens/product_detail_screen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/grocery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/grocery.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component/my_text_field.py" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/component/my_text_field.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kv_file/location_screen.kv" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/kv_file/location_screen.kv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kv_file/login_screen.kv" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/kv_file/login_screen.kv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kv_file/numeric_screen.kv" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/kv_file/numeric_screen.kv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kv_file/signin_screen.kv" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/kv_file/signin_screen.kv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kv_file/signup_screen.kv" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/kv_file/signup_screen.kv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kv_file/splash_screen.kv" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/kv_file/splash_screen.kv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kv_file/verification_screen.kv" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/kv_file/verification_screen.kv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/component/card_item_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/component/card_item_home.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/kv_file/card_item_home.kv" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/kv_file/card_item_home.kv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/kv_file/location_screen.kv" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/kv_file/location_screen.kv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/kv_file/login_screen.kv" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/kv_file/login_screen.kv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/kv_file/main_screen.kv" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/kv_file/main_screen.kv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/kv_file/numeric_screen.kv" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/kv_file/numeric_screen.kv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/kv_file/signin_screen.kv" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/kv_file/signin_screen.kv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/kv_file/signup_screen.kv" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/kv_file/signup_screen.kv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/kv_file/splash_screen.kv" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/kv_file/splash_screen.kv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/kv_file/verification_screen.kv" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/kv_file/verification_screen.kv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/screens/main_screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/screens/main_screen.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/location_screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/screens/location_screen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/login_screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/screens/login_screen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/numeric_screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/screens/numeric_screen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/signin_screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/screens/signin_screen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/signup_screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/screens/signup_screen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/splash_screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/screens/splash_screen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/verification_screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/screens/verification_screen.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
